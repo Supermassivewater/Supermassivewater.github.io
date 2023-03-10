@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <title>Eventos</title>
+</head>
+<body>
+    <header>
+		<h1>¡Javascript!</h1>
+
+        
+	</header>
+    <section id="resultados" class="resultados">
+        <div id="contenedor1">
+            <div id="momos">
+                <select name="" id="option" >
+                    <option value="1">shitpost</option>
+                    <option value="2">grasa</option>
+                    <option value="3">especial</option>
+                    <option value="4">hulk</option>
+                </select>
+            </div>
+
+                <div id="imgmomos1" class="imgmomos">
+                    <img class="previa1" id="imagenunoS" src="image//chispop/chispop1.jpeg" alt="" onclick="cambiarmomo()">
+                    <img class="previa1" id="imagendosS" src="image//chispop/chispop2.jpeg" alt="" onclick="cambiarmomo()">
+                    <img class="previa1" id="imagentresS" src="image//chispop/chispop3.jpg" alt=""  onclick="cambiarmomo()">
+                </div>
+                <div id="imgmomos2" class="imgmomos" style="display: none;">
+                    <img class="previa1" id="imagenunoG" src="image//grasa/grasa1.jpg" alt="" onclick="cambiarmomo()">
+                    <img class="previa1" id="imagendosG" src="image//grasa/grasa2.jpg" alt="" onclick="cambiarmomo()">
+                    <img class="previa1" id="imagentresG" src="image//grasa/grasa3.jpg" alt=""  onclick="cambiarmomo()">
+                </div>
+                <div id="imgmomos3" class="imgmomos" style="display: none;">
+                    <img class="previa1" id="imagenunoE" src="image//especial/especial1.jpg" alt="" onclick="cambiarmomo()">
+                    <img class="previa1" id="imagendosE" src="image//especial/especial2.jpg" alt="" onclick="cambiarmomo()">
+                    <img class="previa1" id="imagentresE" src="image//especial/especial3.jpg" alt=""  onclick="cambiarmomo()">
+                </div>
+                <div id="imgmomos4" class="imgmomos" style="display: none;">
+                    <img class="previa1" id="imagenunoH" src="image//hulk/hulk1.jpg" alt="" onclick="cambiarmomo()">
+                    <img class="previa1" id="imagendosH" src="image//hulk/hulk2.jpg" alt="" onclick="cambiarmomo()">
+                    <img class="previa1" id="imagentresH" src="image//hulk/hulk3.jpeg" alt=""  onclick="cambiarmomo()">
+                </div>
+
+            <div id="buton">
+                <button id="crear">A crear memes</button>
+            </div>
+        </div>
+        <div id="contenedor2">
+            <div id="txtmeme">AQUI APARECERA LA IMAGEN Y EL MEME QUE QUIERAS</div>
+            <img id="previa2" src="image/SPECIAL.png" >
+        </div>
+
+        <dialog id="modal">
+            Hola papu, aqui podras crear tus momazos
+            <input type="text" id="momazo" placeholder="Ingresa el texto del momazo">
+            <button id="botonfinal" onclick="Acrearmemes()">Aplicar a la plantilla</button>
+            <button id="cerrar">Cerrar modal</button>
+        </dialog>
+    </section>
+    
+    <footer>D A N D </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
